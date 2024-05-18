@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "watch": "npx tsc -w",
+    "start": "npx tsc && node build/index.js",
+    "dev": "node build/index.js",
+    "ts": "ts-node src/index.ts",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.2.0",
+    "eslint": "^8.57.0",
+    "globals": "^15.2.0",
+    "typescript": "^5.4.5",
+    "typescript-eslint": "^7.9.0"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "onnxruntime-web": "^1.17.3"
+  }
+}
